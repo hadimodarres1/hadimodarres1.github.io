@@ -1,0 +1,8 @@
+---
+title: "First annotated set of scanning electron microscopy images for nanoscience"
+excerpt: "A total of ~22,000 electron microscope images are classified into 10 categories to form 4 labeled training sets, suited for image recognition tasks"
+header:
+    teaser: /assets/images/categories_images.jpeg
+link: https://www.nature.com/articles/sdata2018172
+order: 4
+---

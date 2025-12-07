@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-UK"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Hadi Modarres"
+title                    : "Hadi Modarres, PhD"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hadi Modarres, PhD"
@@ -125,14 +125,14 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/hadi-modarres/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hadimodarres1"
     - label: "ORCiD"
       icon: "fab fa-brands fa-orcid"
       url: "https://orcid.org/0000-0002-9579-7942"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/hadimodarres1"
-    - label: "Google Scholar"
-      icon: "fas fa-brands fa-google-scholar" 
+    - label: "Google-Scholar"
+      icon: "fa-brands fa-google-scholar" 
       url: "https://scholar.google.com/citations?user=xQpBfDcAAAAJ&hl=en"
 
 # Site Footer
@@ -252,10 +252,8 @@ pagination:
     before: 2
     after: 2
 
-
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -312,7 +310,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: portfolio
     values:
       layout: single
       author_profile: true
@@ -320,3 +318,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
