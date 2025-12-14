@@ -131,7 +131,7 @@ author:
     - label: "ORCiD"
       icon: "fab fa-brands fa-orcid"
       url: "https://orcid.org/0000-0002-9579-7942"
-    - label: "Google-Scholar"
+    - label: "Google Scholar"
       icon: "fa-brands fa-google-scholar" 
       url: "https://scholar.google.com/citations?user=xQpBfDcAAAAJ&hl=en"
 
